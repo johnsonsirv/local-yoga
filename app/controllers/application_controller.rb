@@ -2,6 +2,6 @@ class ApplicationController < ActionController::Base
 	protect_from_forgery with: :exception
 	
 	def index
-		render html: "Hello Moi"
+		render html: "hola, mundo!"
 	end
 end
